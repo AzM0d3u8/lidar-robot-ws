@@ -1,0 +1,49 @@
+# Arduino build files
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.d
+*.o
+*.a
+
+# Arduino libraries and cache
+__pycache__/
+.DS_Store
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.bak
+
+# VSCode settings (if used)
+.vscode/
+*.code-workspace
+
+# Python virtual env
+venv/
+env/
+ENV/
+.venv/
+
+# Pygame image outputs
+map_image.png
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Log and temp files
+*.log
+*.tmp
+
+# GitHub Desktop temp files
+*.orig
+
+# Ignore compiled Arduino sketch folder
+/build/
+
+
+
+
